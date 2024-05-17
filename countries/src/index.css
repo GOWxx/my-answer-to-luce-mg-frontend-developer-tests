@@ -11,18 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.user-list-item {
-  transition: all 0.3s ease;
-  padding: 10px;
-  border-bottom: 1px solid #ccc;
-}
-
-.user-list-item:hover {
-  background-color: #e0e0e0;
-}
-
-/* 新的背景颜色样式 */
-.expanded-country {
-  background-color: #d0d0d0;
-}

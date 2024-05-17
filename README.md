@@ -6,7 +6,7 @@ run command
 ```sh
  % cd countries
  % pnpm install
- % pnpm run dev
+ % pnpm run start
 ```
 
 ## API:
