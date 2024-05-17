@@ -1,0 +1,12 @@
+.country-list .country-list-item {
+  transition: all 0.3s ease;
+}
+
+.country-list .country-list-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* 新的背景颜色样式 */
+.country-list .expanded-country {
+  background-color: #d0d0d0;
+}

@@ -1,0 +1,35 @@
+.user-list-item {
+  transition: all 0.3s ease;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-list-item:hover {
+  background-color: #e0e0e0;
+}
+
+.user-list-item .user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-list-item .user-info span {
+  margin: 2px 0;
+}
+
+.user-list-item .user-info-label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.user-list-item .user-name {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.user-list-item .user-gender,
+.user-location,
+.user-registered {
+  font-size: 0.9em;
+  color: #555;
+}
